@@ -234,37 +234,6 @@ Server runs at `http://localhost:3000`
 
 ---
 
-## 🧪 Testing
-
-### Run Integration Tests
-```bash
-# All tests
-npm test
-
-# Watch mode
-npm run test:watch
-
-# Coverage report
-npm run test:coverage
-```
-
-### Test Coverage
-- ✅ Concurrency tests (10 parallel orders on 5 stock)
-- ✅ Idempotency validation
-- ✅ Stock integrity verification
-- ✅ Analytics aggregation accuracy
-- ✅ Error handling scenarios
-
-### Concurrency Test Results
-```
-✓ Should prevent overselling with concurrent requests
-  - 10 requests, 5 stock → exactly 5 succeed, 5 fail
-  - Final stock: 0
-  - Orders created: 5
-```
-
----
-
 ## 📡 API Documentation
 
 ### Base URL
