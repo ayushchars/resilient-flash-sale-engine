@@ -88,3 +88,13 @@ npm start
 ```
 
 Server runs at `http://localhost:3000`
+
+---
+
+## Testing
+
+Use the provided **Postman collection** to test all endpoints and validate concurrency handling.
+
+1. Import `Flash-Sale-API.postman_collection.json` into Postman
+2. Run individual requests or use Collection Runner for concurrent testing
+3. Observe concurrency behavior: exactly N orders succeed when stock is N, regardless of request count
